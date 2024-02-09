@@ -1,0 +1,32 @@
+*.class
+*.jar
+*.war
+*.ear
+# generated files
+bin/**
+gen/**
+.api_generation
+# project based files
+.idea/
+*.iml
+*.ipr
+*.iws
+.gradletasknamecache
+.gradle/
+build/
+bin/
+
+*.pydevproject
+.project
+.metadata
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+/.idea/
