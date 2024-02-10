@@ -349,7 +349,7 @@ class MermaidLogger implements IMermaidLogger {
 
     @Override
     public void destroyParticipant(final String participant) {
-        LOGGER.debug("{} deactivate {}", MERMAID_IDENTIFIER, participant);
+        LOGGER.debug("{} destroy {}", MERMAID_IDENTIFIER, participant);
     }
 
     @Override
@@ -374,7 +374,7 @@ class MermaidLogger implements IMermaidLogger {
 
     @Override
     public void destroyActor(final String actor) {
-        LOGGER.debug("{} deactivate {}", MERMAID_IDENTIFIER, actor);
+        LOGGER.debug("{} destroy {}", MERMAID_IDENTIFIER, actor);
     }
 
     @Override

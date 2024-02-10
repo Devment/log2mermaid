@@ -31,16 +31,11 @@ class MermaidLoggerTest extends Specification {
 
         LOGGER.createParticipant(bob, "b")
         LOGGER.logRequest(sender, "b", "message", MessageType.DOTTED_LINE)
+        LOGGER.destroyParticipant("b")
 
         then:
         noExceptionThrown()
     }
-
-
-
-
-
-
 
 
 
