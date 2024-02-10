@@ -2,10 +2,24 @@ package studio.devment.log2mermaid;
 
 import org.slf4j.Logger;
 
+/**
+ * Interface describing the methods of a slf4j logger and methods to print mermaid syntax to the log.
+ */
 public interface IMermaidLogger extends Logger {
 
+    /**
+     * Optional: Add participant.
+     *
+     * @param participant name of the participant.
+     */
     void addParticipant(String participant);
 
+    /**
+     * Optional: Add participant with an alias.
+     *
+     * @param participant name of the participant.
+     * @param alias       the alias of the participant.
+     */
     void addParticipant(String participant, String alias);
 
 
